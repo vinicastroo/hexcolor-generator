@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: white;
+}
+
+#content {
+  width: 99%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  margin: 0.5% 0.5% 0 0.5%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1;
+  border-radius: 5px;
+}
+
+.card-content {
+  background: rgb(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
