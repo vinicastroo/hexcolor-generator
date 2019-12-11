@@ -2,18 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
-  font-size: 20px;
+  font-family: "Rubik", sans-serif;
   color: white;
 }
 
 #content {
-  width: 99%;
+  width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-  margin: 0.5% 0.5% 0 0.5%;
+  margin: 2.5% 2.5% 0 2.5%;
+}
+
+#menu {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+#menu span {
+  margin: 0 10px;
+  font-size: 30px;
 }
 
 .card {
@@ -22,6 +33,7 @@
   flex-direction: column;
   align-items: center;
   flex: 1 1;
+  padding: 100px 50px;
   border-radius: 5px;
 }
 
@@ -29,4 +41,5 @@
   background: rgb(0, 0, 0, 0.2);
   padding: 5px 10px;
   border-radius: 5px;
+  font-size: 22px;
 }

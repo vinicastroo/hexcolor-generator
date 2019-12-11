@@ -3,8 +3,9 @@ window.addEventListener("load", event => {
     let sHex = getHex();
     let oCard = getCard(sHex);
     oCard.style.background = sHex;
-    oCard.style.height = "232px";
   }
+
+  document.querySelector("#menu").style.background = getHex();
 });
 
 function rand(iMin, iMax) {
@@ -56,6 +57,7 @@ function getCard(sHex) {
   oCardContent.innerText = sHex;
   oCard.appendChild(oCardContainer);
   oCardContainer.appendChild(oCardContent);
+
   document.querySelector("#content").appendChild(oCard);
   return oCard;
 }
