@@ -15,18 +15,22 @@
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
     "react-scripts": "4.0.0",
+    "serve": "^11.3.2",
     "styled-components": "^5.2.1",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
   "homepage": "https://vinicastroo.github.io/HexcolorGenerator",
+  "files": [
+    "src/"
+  ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "parcel serve public/index.html",
+    "build": "cross-env NODE_ENV=production parcel build public/index.html --public-url .",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": {
     "production": [
@@ -44,6 +48,7 @@
     "@types/styled-components": "^5.1.4",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
+    "cross-env": "^7.0.2",
     "eslint": "^7.12.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
@@ -55,6 +60,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4",
     "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^2.1.2"
   }
 }
