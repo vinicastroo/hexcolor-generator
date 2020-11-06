@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/HexcolorGenerator/static/js/main.7e9c8836.chunk.js",
+    "main.js.map": "/HexcolorGenerator/static/js/main.7e9c8836.chunk.js.map",
+    "runtime-main.js": "/HexcolorGenerator/static/js/runtime-main.8ce1aa46.js",
+    "runtime-main.js.map": "/HexcolorGenerator/static/js/runtime-main.8ce1aa46.js.map",
+    "static/js/2.9559828e.chunk.js": "/HexcolorGenerator/static/js/2.9559828e.chunk.js",
+    "static/js/2.9559828e.chunk.js.map": "/HexcolorGenerator/static/js/2.9559828e.chunk.js.map",
+    "index.html": "/HexcolorGenerator/index.html",
+    "static/js/2.9559828e.chunk.js.LICENSE.txt": "/HexcolorGenerator/static/js/2.9559828e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ce1aa46.js",
+    "static/js/2.9559828e.chunk.js",
+    "static/js/main.7e9c8836.chunk.js"
+  ]
+}
